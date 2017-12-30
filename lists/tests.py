@@ -41,7 +41,6 @@ class HomePageTest(TestCase):
         self.assertIn('item zwei', response.content.decode())
 
 
-
 class ItemModelTest(TestCase):
 
     def test_saving_and_retrieving_items(self):
